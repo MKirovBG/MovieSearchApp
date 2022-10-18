@@ -1,6 +1,6 @@
 let API_URL = 'http://www.omdbapi.com/?apikey=29697d12&type=movie&s=';
 
-// Create a function to take the inpput and add to the API request
+// Create a function to take the input and add to the API request
 
 const form = document.querySelector('form');
 const input = document.querySelector('#searchTerm');
@@ -31,7 +31,7 @@ function showResults(results) {
 	console.log(movies);
 	movies.forEach((movie) => {
 		html += `
-            <div class="card col-4">
+            <div class="card col-2">
                 <img class="card-imp-top" src=${movie.Poster}  alt=${movie.Poster}>
                     <div class="card-body">
                         <h5 class="card-title">${movie.Title}</h5>
