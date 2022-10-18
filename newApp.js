@@ -1,4 +1,4 @@
-let API_URL = 'http://www.omdbapi.com/?apikey=29697d12&type=movie&s=';
+let API_URL = 'https://www.omdbapi.com/?apikey=29697d12&type=movie&s=';
 
 // Create a function to take the input and add to the API request
 
