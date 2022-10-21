@@ -5,3 +5,4 @@ To all users looking at the API, please go and get your own key on http://www.om
 !!! To try : Clone the repo and Open Live Server !!!
 
 Example Search: star wars
+![plot](./Example.jpg)
