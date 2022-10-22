@@ -15,7 +15,7 @@ function formSubmitted(event) {
 }
 
 function getResults(searchText) {
-	const currentSearch = `${API_URL}${searchText}`;
+	const currentSearch = `${API_URL}${searchText.toLowerCase()}`;
 
 	fetch(currentSearch)
 		.then((response) => response.json())
